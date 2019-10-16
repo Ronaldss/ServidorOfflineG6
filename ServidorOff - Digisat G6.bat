@@ -14,8 +14,8 @@ cls
 net stop MongoDBDigisat
 net stop SincronizadorDigisat
 timeout 2 >nul
-rem C:\DigiSat\SuiteG6\Servidor\nomeArquivo outroNome
-rem C:\DigiSat\SuiteG6\Sistema\nomeArquivo outroNome
+del C:\DigiSat\SuiteG6\Servidor\ConfiguracaoServer.xml
+del C:\DigiSat\SuiteG6\Sistema\ConfiguracaoClient.xml
 timeout 1 >nul
 net start MongoDBDigisat
 net start SincronizadorDigisat
@@ -29,8 +29,8 @@ cls
 @echo    ***********************************************
 @echo    ***                                         ***
 @echo    ***      Processo Finalizado com sucesso    ***
-@echo    ***      Por RonaldsS                       ***
+@echo    ***      Por Cptk                           ***
 @echo    ***                                         ***
 @echo    ***********************************************
 @echo.
-cls
+pause >nul
