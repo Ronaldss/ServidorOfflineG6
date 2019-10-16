@@ -34,4 +34,6 @@ cls
 @echo    ***********************************************
 @echo.
 ipconfig |find "IPv4"
+@echo.
+@echo -- Bom trabalho --
 pause >nul
